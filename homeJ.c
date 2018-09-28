@@ -10,7 +10,7 @@ int my_strlen(char * str){
   return length;
 }
 
-int my_strncpy(char * ){
+int my_strncpy(char * str){
   return 0;
 }
 
