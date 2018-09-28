@@ -10,8 +10,13 @@ int my_strlen(char * str){
   return length;
 }
 
-int my_strncpy(char * str){
-  return 0;
+char * my_strncpy(char *dest, char *source, int n){
+  int i;
+  for (i=0; i<n && *source; i++){
+    *(dest+i) = *(source+i);
+  }
+
+  return dest;
 }
 
 int main() {
